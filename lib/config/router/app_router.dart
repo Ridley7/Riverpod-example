@@ -59,5 +59,11 @@ final appRouter = GoRouter(
       name: InfiniteScrollScreen.name,
       builder: (context, state) => const InfiniteScrollScreen(),
     ),
+
+    GoRoute(
+      path: '/count-river',
+      name: ScreenCounter.name,
+      builder: (context, state) => const ScreenCounter(),
+    ),
   ],
 );

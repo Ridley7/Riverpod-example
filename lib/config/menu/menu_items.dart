@@ -74,6 +74,12 @@ const appMenuItems = <MenuItem>[
     icon: Icons.list_alt_rounded
   ),
 
+  MenuItem(
+      title: 'Counter Riverpod',
+      subTitle: 'Ejemplo de contador con Riverpod',
+      link: '/count-river',
+      icon: Icons.list_alt_rounded
+  ),
 
 ];
 
