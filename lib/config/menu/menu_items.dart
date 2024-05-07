@@ -81,6 +81,13 @@ const appMenuItems = <MenuItem>[
       icon: Icons.list_alt_rounded
   ),
 
+  MenuItem(
+      title: 'Theme Change',
+      subTitle: 'Cambio tema con Riverpod',
+      link: '/change-theme',
+      icon: Icons.theater_comedy
+  ),
+
 ];
 
 
